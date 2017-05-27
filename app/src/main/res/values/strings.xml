@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Whatswap</string>
+    <string name="title_home">Home</string>
+    <string name="title_storage">Storage</string>
+    <string name="title_nearby">Nearby Items</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hint_item_photo">Photo(s) (required)</string>
+    <string name="hint_item_name">Item Name (required)</string>
+    <string name="hint_item_desc">Item Description (required)</string>
+    <string name="hint_item_estimated_price">Estimated Price(SGD) (required)</string>
+    <string name="hint_item_category">Category (required)</string>
+    <string name="hint_item_mode_of_trading">Mode of Trading</string>
+    <string name="hint_item_mode_of_delivering">Mode of Delivering</string>
+
+    <string name="submit"> Submit</string>
+    <string name="cancel"> Cancel</string>
+    <string name="chat">Chat with Owner</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test_main">Hello main fragment</string>
+    <string name="test_storage">Hello storage fragment</string>
+    <string name="test_settings">Hello settings fragment</string>
+    <string name="settings_btn_SignOut">Sign Out</string>
+    <string name="dummy_long">lfjsflkjasdflaskjfaslhgaslkjhgaslkjgasjlhglasjlhfglaksjhgasjlhgasljhdkgasjgsa;lkfhgnsfjhgnsjhgfalkjgasljkfg</string>
+
+    <string name="profile_username">username</string>
+    <string name="profile_gender">Gender</string>
+    <string name="profile_community">Community</string>
+    <string name="profile_save">save</string>
+    <string name="profile_age">age</string>
+
+    <string name="settings_update_profile">Update Profile</string>
+    <string name="settings_change_password">Change Password</string>
+
+    <string-array name="category_array">
+        <item>Women\'s Fashion</item>
+        <item>Men\'s Fashion</item>
+        <item>Electronic Items</item>
+        <item>Furniture &amp; Home Appliances</item>
+        <item>Luxury</item>
+        <item>Books &amp; Stationery</item>
+        <item>Cars &amp; AutoBikes</item>
+        <item>Sports</item>
+        <item>Baby &amp; Kids</item>
+        <item>Health &amp; Beauty</item>
+        <item>Other Items</item>
+    </string-array>
+
+    <string-array name="trading_mod_array">
+        <item>Cash only</item>
+        <item>Exchange only</item>
+        <item>Both cash and exchange</item>
+    </string-array>
+
+    <string-array name="delivery_mod_array">
+        <item>Meet up</item>
+        <item>Mailing</item>
+        <item>Both meet up and mailing</item>
+    </string-array>
+
+</resources>

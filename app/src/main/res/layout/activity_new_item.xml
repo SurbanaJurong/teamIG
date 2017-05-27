@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamig.whatswap.activities.NewItemActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <TextView
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_photo"/>
+        <RelativeLayout
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextSubtitleStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:layout_centerVertical="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="@dimen/size_touch_avatar"
+                android:layout_height="@dimen/size_touch_avatar"
+                android:src="@drawable/ic_add_white_24dp"
+                android:id="@+id/btn_add_photo"/>
+            <android.support.v7.widget.RecyclerView
+                android:background="@drawable/edittext_background"
+                android:layout_centerVertical="true"
+                android:padding="5dp"
+                android:id="@+id/rv_photo"
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_marginEnd="@dimen/margin_between_contents"
+                android:layout_toStartOf="@+id/btn_add_photo"/>
+        </RelativeLayout>
+
+        <TextView
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_name"/>
+        <EditText
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:background="@drawable/edittext_background"
+            android:id="@+id/et_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            style="@style/EditTextPrimaryStyle"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_desc"/>
+        <EditText
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:id="@+id/et_item_desc"
+            android:gravity="top|start"
+            android:maxLines="6"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:inputType="textMultiLine"
+            style="@style/EditTextPrimaryStyle"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_estimated_price"/>
+        <EditText
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:id="@+id/et_item_price"
+            android:gravity="top|start"
+            android:maxLines="6"
+            android:background="@drawable/edittext_background"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:inputType="number"
+            style="@style/EditTextPrimaryStyle"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_category"/>
+        <Spinner
+            android:id="@+id/sp_category"
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_mode_of_trading"/>
+        <Spinner
+            android:id="@+id/sp_trad_mod"
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="@dimen/margin_between_contents"
+            style="@style/TextAppearance.AppCompat.Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hint_item_mode_of_delivering"/>
+        <Spinner
+            android:id="@+id/sp_deli_mod"
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/margin_between_contents"
+            android:layout_marginBottom="@dimen/margin_between_contents"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="@android:color/white"
+                android:id="@+id/btn_cancel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_between_contents"
+                android:background="@android:color/holo_red_light"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:text="@string/cancel"/>
+            <Button
+                style="@style/Widget.AppCompat.Button.Colored"
+                android:textColor="@android:color/white"
+                android:id="@+id/btn_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:elevation="4dp"
+                android:padding="20dp"
+                android:layout_weight="1"
+                android:text="@string/submit"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
+

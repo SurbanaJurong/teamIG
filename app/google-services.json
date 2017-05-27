@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "870206470639",
+    "firebase_url": "https://nyphackathon-7c81a.firebaseio.com",
+    "project_id": "nyphackathon-7c81a",
+    "storage_bucket": "nyphackathon-7c81a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870206470639:android:64e58dacc0483faa",
+        "android_client_info": {
+          "package_name": "com.google.firebase.udacity.friendlychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870206470639-td0ih0npocpu4utrakbijgvut1hg45u5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.google.firebase.udacity.friendlychat",
+            "certificate_hash": "bb4f23de0161aedd90e6ce2a76b5d49175646e75"
+          }
+        },
+        {
+          "client_id": "870206470639-jhaadksapdu2delvgbcmgcvl2l3huev6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwA2UQV6s6JoneYxy7kKJAhhAKelTjD0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870206470639-jhaadksapdu2delvgbcmgcvl2l3huev6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870206470639:android:b0cd03e7fb046b6e",
+        "android_client_info": {
+          "package_name": "com.whatswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870206470639-pt1itm5v5rf1j15bn6a58vk9u4v6657p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.whatswap",
+            "certificate_hash": "bb4f23de0161aedd90e6ce2a76b5d49175646e75"
+          }
+        },
+        {
+          "client_id": "870206470639-jhaadksapdu2delvgbcmgcvl2l3huev6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwA2UQV6s6JoneYxy7kKJAhhAKelTjD0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870206470639-jhaadksapdu2delvgbcmgcvl2l3huev6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870206470639:android:b4ddda3300b6eccd",
+        "android_client_info": {
+          "package_name": "com.teamig.whatswap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870206470639-o1nabb5202abhmmvjm2qrn3sdinphhpd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamig.whatswap",
+            "certificate_hash": "aa6e9f2791d74e95ae49eec6cb9bc031601a61b3"
+          }
+        },
+        {
+          "client_id": "870206470639-9lisl7svfleat4a0ifa3k9nbgb79gu0g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamig.whatswap",
+            "certificate_hash": "bb4f23de0161aedd90e6ce2a76b5d49175646e75"
+          }
+        },
+        {
+          "client_id": "870206470639-jhaadksapdu2delvgbcmgcvl2l3huev6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwA2UQV6s6JoneYxy7kKJAhhAKelTjD0M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "870206470639-jhaadksapdu2delvgbcmgcvl2l3huev6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

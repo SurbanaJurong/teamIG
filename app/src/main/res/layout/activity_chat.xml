@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:id="@+id/sv_chat_zone"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:id="@+id/ll_chat_zone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/textbox_other"/>
+            <include layout="@layout/textbox_self"/>
+            <include layout="@layout/textbox_other"/>
+            <include layout="@layout/textbox_self"/>
+            <include layout="@layout/textbox_other"/>
+            <include layout="@layout/textbox_self"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin">
+        <ImageButton
+            android:id="@+id/btn_send"
+            android:layout_alignParentEnd="true"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="@dimen/size_touch_avatar"
+            android:layout_height="@dimen/size_touch_avatar"
+            android:src="@drawable/ic_send_green_500_24dp"/>
+        <EditText
+            android:padding="2dp"
+            android:layout_toStartOf="@id/btn_send"
+            android:layout_width="fill_parent"
+            android:layout_height="24dp"
+            android:id="@+id/et_chat"
+            android:layout_centerVertical="true"
+            android:background="@drawable/chatbox_background"
+            android:layout_marginEnd="@dimen/margin_between_contents"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
